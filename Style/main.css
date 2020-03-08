@@ -1,0 +1,144 @@
+.main-info {
+    margin-left: 144px;
+    margin-right: 144px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.titles {
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.small-text {
+    font-size: 14px;
+    padding-bottom: 4px;
+}
+
+.subtitles {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#before-code {
+    float: left;
+    padding-right: 6px;
+}
+
+#code {
+    color: #929292;
+    font-weight: 150;
+}
+
+.stars {
+    padding-top: 10px;
+}
+
+.comment {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.tables td {
+    padding-right: 80px;
+}
+
+.special-table td {
+    padding-bottom: 27px;
+}
+
+#age-range {
+   padding-right: 124px; 
+}
+
+#family-members {
+    padding-right: 82px;
+}
+
+#nothing {
+    padding-right: 120px;
+}
+
+#female-host {
+    padding-right: 119px;
+}
+
+#number {
+    padding-right: 167px;
+}
+
+#dogs {
+    padding-right: 106px;
+}
+
+#breakfast {
+    padding-right: 135px;
+}
+
+.title1 {
+    font-weight: bold;
+}
+
+.multiple-lines {
+    padding-bottom: 4px;
+}
+
+.icons {
+    height: 70px;
+    width: 40px;
+}
+
+.checkmark {
+    height: 45px;
+    width: 20px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.others {
+    width: 1030px;
+}
+
+.text {
+    padding-bottom: 15px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #E5E5E5;
+    margin: 30px 0;
+}
+
+.special-hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #E5E5E5;
+    margin: 20px 0;
+}
+
+.special-hr2 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #E5E5E5;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#map {
+    width: 100%;
+    height: 701px;
+
+}
+
+#end{
+    padding: 75px;
+}

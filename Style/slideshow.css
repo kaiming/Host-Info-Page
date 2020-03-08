@@ -1,0 +1,55 @@
+.slideshow {
+    width: 100%;
+    height: 675px;
+}
+
+.slider {
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    position: relative;
+}
+
+.button1 {
+    position: absolute;
+    top: 0%;
+    padding-left: 60px;
+    padding-right: 70px;
+    width: 14px;
+    height: 675px;
+    background-color: #F3F3F3;
+}
+
+.button2 {
+    position: absolute;
+    top: 0%;
+    margin-left: 1295px;
+    padding-left: 60px;
+    padding-right: 70px;
+    width: 14px;
+    height: 675px;
+    background-color: #F3F3F3;
+}
+
+#back {
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 88px;
+}
+
+#forward {
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 88px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+  
+
+
+
+

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Homestay Info Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="homestay, places, homes">
+
+    <title>Host Info Page</title>
+
+    <link rel="stylesheet" href="Style/heading.css">
+    <link rel="stylesheet" href="Style/slideshow.css">
+    <link rel="stylesheet" href="Style/main.css">
+</head>
+
+<body>
+
+    <div class="main-headings">
+        <a href="#photos"><button id="photos">Photos</button></a>
+        <a href="#rooms"><button>Homestay</button></a>
+        <a href="#commute"><button>Commute</button></a>
+        <a href="#review"><button>Review</button></a>
+    </div>
+
+    <div class="slider">
+        <div id="slides">
+            <img class="slideshow" src="Images/Host photos/1.jpg">
+        </div>
+    </div>
+
+    <button id="back" onclick="nextImage()">
+        <div class="button1">
+            <img class="slideshow" src="Images/icons/ic_chevron_left.svg">
+        </div>
+    </button>
+
+    <button id="forward" onclick="prevImage()">
+        <div class="button2">
+            <img class="slideshow" src="Images/icons/ic_chevron_right.svg">
+        </div>
+    </button>
+
+    <br id="rooms">
+    <br>
+
+    <div class="main-info">
+        <p class="titles">Rooms and Facilities</p>
+        <table class="tables">
+            <tr>
+                <td><img class="icons" src="Images/icons/ic_hotel.svg"></td>
+                <td>
+                    <p class="title1">Student Rooms:</p>
+                </td>
+                <td>Upper floor rooms: 1</td>
+                <td>Basement rooms: 1</td>
+            </tr>
+            <tr>
+                <td><img class="icons" src="Images/icons/ic_hot_tub.svg"></td>
+                <td>
+                    <p class="title1">Washrooms:</p>
+                </td>
+                <td>3 for students</td>
+            </tr>
+            <tr>
+                <td><img class="icons" src="Images/icons/ic_event_seat.svg"></td>
+                <td>
+                    <p class="title1">Access to Facilities:</p>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <img class="checkmark" src="Images/icons/ic_check.svg">
+                    <span>Bed</span> <!-- allows for the image and text to be aligned (plus css styling) -->
+                </td>
+                <td>
+                    <img class="checkmark" src="Images/icons/ic_check.svg">
+                    <span>Mirror</span>
+                </td>
+                <td>
+                    <img class="checkmark" src="Images/icons/ic_check.svg">
+                    <span>Wardrobe</span>
+                </td>
+                <td>
+                    <img class="checkmark" src="Images/icons/ic_check.svg">
+                    <span>Desk</span>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <img class="checkmark" src="Images/icons/ic_check.svg">
+                    <span>Lamp</span>
+                </td>
+                <td>
+                    <img class="checkmark" src="Images/icons/ic_check.svg">
+                    <span>Washer & Dryer</span>
+                </td>
+                <td>
+                    <img class="checkmark" src="Images/icons/ic_check.svg">
+                    <span>Water & Electricity</span>
+                </td>
+                <td>
+                    <img class="checkmark" src="Images/icons/ic_check.svg">
+                    <span>Wifi</span>
+                </td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <p class="titles">Members</p>
+        <table class="tables">
+            <tr>
+                <td><img class="icons" src="Images/icons/ic_group.svg"></td>
+                <td id="family-members">
+                    <p class="title1">Family Members</p>
+                </td>
+                <td id="age-range">
+                    <p class="title1">Age Range</p>
+                </td>
+                <td>
+                    <p class="title1">Continent of Birth</p>
+                </td>
+            </tr>
+        </table>
+
+        <hr class="special-hr">
+
+        <table class="special-table">
+            <tr>
+                <td id="nothing"></td>
+                <td id="female-host">Female host</td>
+                <td id="number">40-49</td>
+                <td>North America</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Male host</td>
+                <td>40-49</td>
+                <td>North America</td>
+            </tr>
+            <tr>
+                <td><img class="icons" src="Images/icons/ic_pets.svg"></td>
+                <td>
+                    <p class="title1">Pets</p>
+                </td>
+                <td>Cats: 0</td>
+                <td id="dogs">Dogs: 2</td>
+                <td>Other Pets: None</td>
+            </tr>
+        </table>
+
+        <hr class="special-hr2">
+
+        <p class="titles">Meals</p>
+        <table class="tables">
+            <tr>
+                <td><img class="icons" src="Images/icons/ic_local_dining.svg"></td>
+                <td id="breakfast">
+                    <p class="title1">Breakfast</p>
+                </td>
+                <td>
+                    <div class="multiple-lines">
+                        <p>Cereal, fruit, bagels, oatmeal</p>
+                    </div>
+                    <p>Host provides material, student prepares own breakfast</p>
+                </td>
+            </tr>
+            <tr>
+                <td><img class="icons" src="Images/icons/ic_local_dining.svg"></td>
+                <td>
+                    <p class="title1">Lunch</p>
+                </td>
+                <td>
+                    <div class="multiple-lines">
+                        <p>Soup, sandwiches, fruit, salad.</p>
+                    </div>
+                    <p>Host prepares lunch for student</p>
+                </td>
+            </tr>
+            <tr>
+                <td><img class="icons" src="Images/icons/ic_local_dining.svg"></td>
+                <td>
+                    <p class="title1">Dinner</p>
+                </td>
+                <td>
+                    <div class="multiple-lines">
+                        <p>Beef, Chicken, Rice, Pasta, Veggies</p>
+                    </div>
+                    <p>Host prepares dinner for student</p>
+                </td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <p class="titles">Others</p>
+        <table class="tables">
+            <tr>
+                <td><img class="icons" src="Images/icons/ic_account_box.svg"></td>
+                <td>
+                    <p class="title1">Self-Introduction:</p>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <div class="text">
+                        <p class="others">We are a family-oriented person and our family is composed of three joyful
+                            individuals. My wife
+                            is a fulltime mom to our one year old son and I work in a IT company as a Web Developer. We
+                            are
+                            welcoming
+                            students to our house and treat them as a family. Our house has centralized air conditioning
+                            during summer and heater on winter.
+                        </p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><img class="icons" src="Images/icons/ic_format_list_bulleted.svg"></td>
+                <td>
+                    <p class="title1">Regulations:</p>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <div class="text">
+                        <p class="others">Only accept male students</p>
+                        <p class="others">Only accept student younger than 25 years old</p>
+                        <p class="others">No smoking inside the house</p>
+                        <p class="others">Visitors and allowed only on the Living room and not into their room.
+                            No alcohol inside the room as well.
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <hr id="commute">
+
+        <p class="titles">Commute</p>
+        <br>
+        <div id="map"></div>
+
+        <hr>
+
+        <p class="titles" id="review">Review</p>
+        <p class="subtitles">Homadorma Staff</p>
+        <p class="small-text">Housing expert interviewed on 2018-08-15</p>
+        <div class="stars">
+            <img src="Images/icons/Star.svg">
+            <img src="Images/icons/Star.svg">
+            <img src="Images/icons/Star.svg">
+            <img src="Images/icons/Star.svg">
+            <img src="Images/icons/Star.svg">
+        </div>
+        <p class="comment">Student rooms and common areas are nice and clean.
+            Host is very warm and friendly. Highly recommended!</p>
+        <div class="subtitles">
+            <p id="before-code">John</p>
+            <p id="code">(S13919)</p>
+        </div>
+        <p class="small-text">From China. Attends University of Toronto</p>
+        <p class="small-text">Student stayed from 2019-01-18</p>
+        <div class="stars">
+            <img src="Images/icons/Star.svg">
+            <img src="Images/icons/Star.svg">
+            <img src="Images/icons/Star.svg">
+            <img src="Images/icons/Star.svg">
+            <img src="Images/icons/Star.svg">
+        </div>
+        <p class="comment">This is a good homestay! Big house and big family.
+            Great location easy for taking public transportation. Lots of nice animals, etc.</p>
+
+        <div id="end"></div>
+
+    </div>
+
+    <script rel="script" src="Script/script.js"></script>
+    <script rel="script" src="Script/maps.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgohA4mdVIWLjs5zgQsjZuT6Z7jxZeQQQ&callback=initMap">
+        </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script rel="script" src="Script/scroll.js"></script>
+
+
+</body>
+
+</html>

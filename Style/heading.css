@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-headings button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    outline: none;
+    border: none;
+    width: 25%;
+    height: 88px;
+    cursor: pointer;
+    color: #F15216;
+}
+
+.main-headings:after { /* fixing float: left issue */
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#photos {
+    background-color: orangered;
+    color: white;
+}
